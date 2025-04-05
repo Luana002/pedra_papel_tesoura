@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+html, body {
+    background: linear-gradient(rgb(193, 255, 230), rgb(115, 191, 205));
+    height: 100%;
+    padding: 0;
+}
+img {
+    width: 130px;
+    height: auto;
+}
+.computer {
+    width: 510px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+button {
+    border: none;
+}

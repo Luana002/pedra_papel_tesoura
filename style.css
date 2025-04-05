@@ -1,0 +1,45 @@
+@import "../node_modules/bootstrap/scss/variables";
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Calistoga&family=Capriola&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Zetta:wght@100..900&family=Margarine&family=Matemasie&family=Murecho:wght@100..900&family=NTR&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Tilt+Neon&display=swap');
+* {
+    margin: 0;
+}
+html, body {
+    background: linear-gradient(rgb(193, 255, 230), rgb(115, 191, 205));
+    height: 100%;
+    padding: 0;
+}
+.btn {
+    margin-top: 10px;
+    width: 200px;
+    background-color: rgb(61, 95, 58);
+    font-size: 30px;
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+.btn:hover {
+    background-color: #8ee18e; /* cor ao passar o mouse */
+  }
+img {
+    margin-top: 20px;
+    width: 600px;
+    height: auto;
+}
+h1 {
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 45px;
+    margin-top: 50px;
+    color: rgb(47, 93, 133);
+    display: inline-block;
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+.container {
+    min-height: 100%;
+}
