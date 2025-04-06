@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +9,19 @@
 </head>
 <body class="d-grid align-items-center justify-content-center">
     <div class="container">
-    <img src="./imagens/computador2.png" class="computer" alt="">
-    <h1 class="text-center">resultado</h1>
-    <div class="image mt-5">
+    <img id="computerImage" class="" src="./imagens/computador2.png" alt="">
+
+        <img id="rockWin" class="d-none" src="./imagens/pedraGanhou.png" alt="">
+        <img id="paperWin" class="d-none" src="./imagens/papelGanhou.png" alt="">
+        <img id="scissorsWin" class="d-none" src="./imagens/tesouraGanhou.png" alt="">
+
+        <img id="rockLose" class="d-none" src="./imagens/pedraPerdeu.png" alt="">
+        <img id="paperLose" class="d-none" src="./imagens/papelPerdeu.png" alt="">
+        <img id="scissorsLose" class="d-none" src="./imagens/tesouraPerdeu.png" alt="">
+    </div>
+
+    <h1 id="text" class="text-center d-none">resultado</h1>
+    <div class="image">
         <button onclick="toPlay('rock')" class="rounded">
             <img src="./imagens/pedra.png" class="image-rock rounded" alt="pedra">
         </button>
@@ -23,7 +33,12 @@
         <button onclick="toPlay('scissors')" class="rounded">
             <img src="./imagens/tesoura.png" class="image-scissors rounded" alt="tesoura">
         </button>
+        
     </div>
+    </div>
+
+    <div class="container mt-1 d-flex justify-content-center align-items-center">
+        <button id="playAgain" class="btn btn-primary">Jogar novamente</button>
     </div>
 
     <script src="script.js"></script>

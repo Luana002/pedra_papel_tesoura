@@ -10,7 +10,7 @@ img {
     width: 130px;
     height: auto;
 }
-.computer {
+#computerImage {
     width: 510px;
     height: auto;
     display: block;
@@ -21,6 +21,14 @@ img {
     justify-content: center;
     gap: 150px;
 }
-button {
+#playAgain {
     border: none;
+    visibility: hidden;;
+    background-color: rgb(61, 95, 58);
+}
+#playAgain.show {
+    visibility: visible;
+}
+#text {
+    visibility: visible;
 }
